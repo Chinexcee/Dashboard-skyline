@@ -1,0 +1,1331 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+.container {
+  
+  width: 100%;
+  height: 25vh;
+  background-color: #d1d1d1;
+  padding-top: 10px;
+  
+}
+
+.nav-bar {
+  background-color: #ffff ;
+  width: 99%;
+  height: 70px;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+
+.btns{
+  display: flex;
+  
+  
+}
+
+.btns button {
+  padding: 12px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+.btn-1 {
+  padding-right: 20px;
+  
+  
+}
+.btn-1 button{
+  background-color: #ffff;
+  color: black;
+  border: 1px solid #dbd3d3;
+}
+
+.btn-2 {
+  padding-right: 10px;
+}
+.btn-2 button {
+  background-color: rgb(0, 0, 165);
+  color: #ffff;
+  border: 1px solid #ffff;
+}
+
+.btn-2 button a{
+  color: #fff;
+}
+
+.search {
+  padding-left: 20px;
+  position: relative;
+} 
+.search input{
+  padding: 12px 60px;
+  border: 1px solid #d1d1d1 ;
+  border-radius: 10px;
+  font-size: 18px;
+  
+}
+.glass {
+  position: absolute;
+  padding-left: 18px;
+  bottom: 10px;
+  font-size: 20px;
+  color: rgb(10, 10, 122);
+}
+
+
+/* The design for the heading of the table */
+
+.head-title {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 45px;
+  color: rgb(56, 56, 153);
+  height: 60px;
+  
+ 
+}
+
+
+.checkboxer {
+  margin-left: -25px;
+}
+.head-title span a {
+  color: rgb(169, 169, 231);
+  padding-left: 5px;
+
+}
+
+/* The body of the table */
+.body-main {
+  background-color: #fff;
+  justify-content: space-between;
+  padding: auto;
+ 
+  
+  
+
+}
+.img img{
+  width: 30px;
+  border-radius: 50%;
+  padding-left: 15px;
+  
+}
+
+.body-main span {
+  text-align: center;
+}
+.checkbox {
+  margin-left: 5px;
+}
+
+
+/* This row is for the student chinedu */
+
+
+.chinedu{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  position: relative;
+
+}
+
+
+
+.chinedu > .passcode{
+  position: absolute;
+  left: 5%;
+  font-size: 20px;
+}
+.chinedu > .passcode a{
+  text-decoration: none;
+}
+
+.chinedu > .name{
+  position: absolute;
+  left: 19%;
+  padding-left: 25px;
+  font-size: 20px;
+}
+
+ .name span{
+  font-size: 20px;
+  padding-left: 5px;
+ 
+ }
+
+.chinedu > .date{
+  position: absolute;
+  left: 35%;
+  font-size: 20px;
+}
+.chinedu> .img {
+  position: absolute;
+  left: 16%;
+}
+.chinedu > .course{
+  position: absolute;
+  left: 48%;
+  font-size: 18px;
+}
+
+.chinedu > .location{
+  position: absolute;
+  left: 63%;
+  font-size: 18px;
+}
+
+.chinedu > .contact{
+  position: absolute;
+  left: 75%;
+  letter-spacing: 10px;
+  font-size: 18px;
+}
+
+.chinedu > .score{
+  position: absolute;
+ left: 90%;
+ background-color: rgb(29, 121, 29);
+ padding: 6px 10px;
+ border-radius: 5px;
+ color: aliceblue;
+ font-size: 20px;
+ 
+}
+
+.humphrey{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  /* position: relative; */
+
+}
+
+.humphrey > .passcode{
+  position: absolute;
+  left: 5%;
+  font-size: 20px;
+}
+.humphrey > .passcode a{
+  text-decoration: none;
+}
+
+.humphrey > .name{
+  position: absolute;
+  left: 19%;
+  padding-left: 25px;
+  font-size: 20px;
+}
+
+ .name span{
+  font-size: 20px;
+  padding-left: 5px;
+ 
+ }
+
+.humphrey> .date{
+  position: absolute;
+  left: 35%;
+  font-size: 20px;
+}
+.humphrey > .img {
+  position: absolute;
+  left: 16%;
+}
+.humphrey> .course{
+  position: absolute;
+  left: 48%;
+  font-size: 18px;
+}
+
+.humphrey > .location{
+  position: absolute;
+  left: 63%;
+  font-size: 18px;
+}
+
+.humphrey > .contact{
+  position: absolute;
+  left: 75%;
+  letter-spacing: 10px;
+  font-size: 18px;
+}
+
+.humphrey > .score{
+  position: absolute;
+ left: 90%;
+ background-color: rgb(29, 121, 29);
+ padding: 6px 10px;
+ border-radius: 5px;
+ color: aliceblue;
+ font-size: 20px;
+ 
+}
+
+/* * This row is for the student Dahiru*/
+
+.dahiru {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  /* position: relative; */
+
+}
+
+.dahiru > .passcode{
+  position: absolute;
+  left: 5%;
+  font-size: 20px;
+}
+.dahiru > .passcode a{
+  text-decoration: none;
+}
+
+.dahiru > .name{
+  position: absolute;
+  left: 19%;
+  padding-left: 25px;
+  font-size: 20px;
+}
+
+ .name span{
+  font-size: 20px;
+  padding-left: 5px;
+ 
+ }
+
+.dahiru> .date{
+  position: absolute;
+  left: 35%;
+  font-size: 20px;
+}
+.dahiru > .img {
+  position: absolute;
+  left: 16%;
+}
+.dahiru> .course{
+  position: absolute;
+  left: 48%;
+  font-size: 18px;
+}
+
+.dahiru > .location{
+  position: absolute;
+  left: 63%;
+  font-size: 18px;
+}
+
+.dahiru > .contact{
+  position: absolute;
+  left: 75%;
+  letter-spacing: 10px;
+  font-size: 18px;
+}
+
+.dahiru > .score{
+  position: absolute;
+ left: 90%;
+ background-color: rgb(29, 121, 29);
+ padding: 6px 10px;
+ border-radius: 5px;
+ color: aliceblue;
+ font-size: 20px;
+}
+
+/* This section is for the student Chinedu Kingsley */
+
+.chinkin {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  /* position: relative; */
+
+}
+
+.chinkin > .passcode{
+  position: absolute;
+  left: 5%;
+  font-size: 20px;
+}
+.chinkin > .passcode a{
+  text-decoration: none;
+}
+
+.chinkin > .name{
+  position: absolute;
+  left: 19%;
+  padding-left: 25px;
+  font-size: 20px;
+}
+
+ .name span{
+  font-size: 20px;
+  padding-left: 5px;
+ 
+ }
+
+.chinkin> .date{
+  position: absolute;
+  left: 35%;
+  font-size: 20px;
+}
+.chinkin > .img {
+  position: absolute;
+  left: 16%;
+}
+.chinkin > .course{
+  position: absolute;
+  left: 48%;
+  font-size: 18px;
+}
+
+.chinkin> .location{
+  position: absolute;
+  left: 63%;
+  font-size: 18px;
+}
+
+.chinkin > .contact{
+  position: absolute;
+  left: 75%;
+  letter-spacing: 10px;
+  font-size: 18px;
+}
+
+.chinkin > .score{
+  position: absolute;
+ left: 90%;
+ background-color: rgb(211, 28, 28);
+ padding: 6px 10px;
+ border-radius: 5px;
+ color: aliceblue;
+ font-size: 20px;
+
+}
+
+
+/* This section is for the student Oyom Benedict */
+
+.oyom {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+ 
+
+}
+
+.oyom > .passcode{
+  position: absolute;
+  left: 5%;
+  font-size: 20px;
+}
+.oyom > .passcode a{
+  text-decoration: none;
+}
+
+.oyom > .name{
+  position: absolute;
+  left: 19%;
+  padding-left: 25px;
+  font-size: 20px;
+}
+
+ .name span{
+  font-size: 20px;
+  padding-left: 5px;
+ 
+ }
+
+.oyom > .date{
+  position: absolute;
+  left: 35%;
+  font-size: 20px;
+}
+.oyom > .img {
+  position: absolute;
+  left: 16%;
+}
+.oyom > .course{
+  position: absolute;
+  left: 48%;
+  font-size: 18px;
+}
+
+.oyom> .location{
+  position: absolute;
+  left: 63%;
+  font-size: 18px;
+}
+
+.oyom > .contact{
+  position: absolute;
+  left: 75%;
+  letter-spacing: 10px;
+  font-size: 18px;
+}
+
+.oyom > .score{
+  position: absolute;
+ left: 90%;
+ background-color: rgb(255, 174, 0);
+ padding: 6px 10px;
+ border-radius: 5px;
+ color: aliceblue;
+ font-size: 20px;
+
+}
+
+
+/* This section is for the student Onah Kingsley */
+
+.onah {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+ 
+
+}
+
+.onah > .passcode{
+  position: absolute;
+  left: 5%;
+  font-size: 20px;
+}
+.onah > .passcode a{
+  text-decoration: none;
+}
+
+.onah > .name{
+  position: absolute;
+  left: 19%;
+  padding-left: 25px;
+  font-size: 20px;
+}
+
+ .name span{
+  font-size: 20px;
+  padding-left: 5px;
+ 
+ }
+
+.onah > .date{
+  position: absolute;
+  left: 35%;
+  font-size: 20px;
+}
+.onah > .img {
+  position: absolute;
+  left: 16%;
+}
+.onah > .course{
+  position: absolute;
+  left: 48%;
+  font-size: 18px;
+}
+
+.onah > .location{
+  position: absolute;
+  left: 63%;
+  font-size: 18px;
+}
+
+.onah > .contact{
+  position: absolute;
+  left: 75%;
+  letter-spacing: 10px;
+  font-size: 18px;
+}
+
+.onah > .score{
+  position: absolute;
+ left: 90%;
+ background-color: rgb(29, 121, 29);
+ padding: 6px 10px;
+ border-radius: 5px;
+ color: aliceblue;
+ font-size: 20px;
+
+}
+
+/* This section is for the student Hassan Rilwan */
+
+.olami {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+ 
+
+}
+
+.olami > .passcode{
+  position: absolute;
+  left: 5%;
+  font-size: 20px;
+}
+.olami > .passcode a{
+  text-decoration: none;
+}
+
+.olami > .name{
+  position: absolute;
+  left: 19%;
+  padding-left: 25px;
+  font-size: 20px;
+}
+
+ .name span{
+  font-size: 20px;
+  padding-left: 5px;
+ 
+ }
+
+.olami > .date{
+  position: absolute;
+  left: 35%;
+  font-size: 20px;
+}
+.olami > .img {
+  position: absolute;
+  left: 16%;
+}
+.olami > .course{
+  position: absolute;
+  left: 48%;
+  font-size: 18px;
+}
+
+.olami > .location{
+  position: absolute;
+  left: 63%;
+  font-size: 18px;
+}
+
+.olami > .contact{
+  position: absolute;
+  left: 75%;
+  letter-spacing: 10px;
+  font-size: 18px;
+}
+
+.olami > .score{
+  position: absolute;
+ left: 90%;
+ background-color: rgb(255, 174, 0);
+ padding: 6px 10px;
+ border-radius: 5px;
+ color: aliceblue;
+ font-size: 20px;
+
+}
+
+
+/* This section is for the student Famous Enwenezi */
+
+.famous {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+ 
+
+}
+
+.famous > .passcode{
+  position: absolute;
+  left: 5%;
+  font-size: 20px;
+}
+.famous > .passcode a{
+  text-decoration: none;
+}
+
+.famous > .name{
+  position: absolute;
+  left: 19%;
+  padding-left: 25px;
+  font-size: 20px;
+}
+
+ .name span{
+  font-size: 20px;
+  padding-left: 5px;
+ 
+ }
+
+.famous > .date{
+  position: absolute;
+  left: 35%;
+  font-size: 20px;
+}
+.famous > .img {
+  position: absolute;
+  left: 16%;
+}
+.famous > .course{
+  position: absolute;
+  left: 48%;
+  font-size: 18px;
+}
+
+.famous > .location{
+  position: absolute;
+  left: 63%;
+  font-size: 18px;
+}
+
+.famous > .contact{
+  position: absolute;
+  left: 75%;
+  letter-spacing: 10px;
+  font-size: 18px;
+}
+
+.famous > .score{
+  position: absolute;
+ left: 90%;
+ background-color: rgb(255, 174, 0);
+ padding: 6px 10px;
+ border-radius: 5px;
+ color: aliceblue;
+ font-size: 20px;
+
+}
+
+/* This section is for the student Jeff Mgbeahuruike */
+
+.jeff {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+ 
+
+}
+
+.jeff > .passcode{
+  position: absolute;
+  left: 5%;
+  font-size: 20px;
+}
+.jeff > .passcode a{
+  text-decoration: none;
+}
+
+.jeff > .name{
+  position: absolute;
+  left: 19%;
+  padding-left: 25px;
+  font-size: 20px;
+}
+
+ .name span{
+  font-size: 20px;
+  padding-left: 5px;
+ 
+ }
+
+.jeff > .date{
+  position: absolute;
+  left: 35%;
+  font-size: 20px;
+}
+.jeff > .img {
+  position: absolute;
+  left: 16%;
+}
+.jeff > .course{
+  position: absolute;
+  left: 48%;
+  font-size: 18px;
+}
+
+.jeff > .location{
+  position: absolute;
+  left: 63%;
+  font-size: 18px;
+}
+
+.jeff > .contact{
+  position: absolute;
+  left: 75%;
+  letter-spacing: 10px;
+  font-size: 18px;
+}
+
+.jeff > .score{
+  position: absolute;
+ left: 90%;
+ background-color: rgb(29, 121, 29);
+ padding: 6px 10px;
+ border-radius: 5px;
+ color: aliceblue;
+ font-size: 20px;
+
+}
+
+/* This section is for the student Charles Nnani*/
+
+.charles {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+ 
+
+}
+
+.charles > .passcode{
+  position: absolute;
+  left: 5%;
+  font-size: 20px;
+}
+.charles > .passcode a{
+  text-decoration: none;
+}
+
+.charles > .name{
+  position: absolute;
+  left: 19%;
+  padding-left: 25px;
+  font-size: 20px;
+}
+
+ .name span{
+  font-size: 20px;
+  padding-left: 5px;
+ 
+ }
+
+.charles > .date{
+  position: absolute;
+  left: 35%;
+  font-size: 20px;
+}
+.charles > .img {
+  position: absolute;
+  left: 16%;
+}
+.charles > .course{
+  position: absolute;
+  left: 48%;
+  font-size: 18px;
+}
+
+.charles > .location{
+  position: absolute;
+  left: 63%;
+  font-size: 18px;
+}
+
+.charles > .contact{
+  position: absolute;
+  left: 75%;
+  letter-spacing: 10px;
+  font-size: 18px;
+}
+
+.charles > .score{
+  position: absolute;
+ left: 90%;
+ background-color: rgb(211, 28, 28);
+ padding: 6px 10px;
+ border-radius: 5px;
+ color: aliceblue;
+ font-size: 20px;
+
+}
+
+/* This section is for the student Dauda Tijani */
+
+.tijani {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+ 
+
+}
+
+.tijani > .passcode{
+  position: absolute;
+  left: 5%;
+  font-size: 20px;
+}
+.tijani > .passcode a{
+  text-decoration: none;
+}
+
+.tijani > .name{
+  position: absolute;
+  left: 19%;
+  padding-left: 25px;
+  font-size: 20px;
+}
+
+ .name span{
+  font-size: 20px;
+  padding-left: 5px;
+ 
+ }
+
+.tijani > .date{
+  position: absolute;
+  left: 35%;
+  font-size: 20px;
+}
+.tijani > .img {
+  position: absolute;
+  left: 16%;
+}
+.tijani > .course{
+  position: absolute;
+  left: 48%;
+  font-size: 18px;
+}
+
+.tijani > .location{
+  position: absolute;
+  left: 63%;
+  font-size: 18px;
+}
+
+.tijani > .contact{
+  position: absolute;
+  left: 75%;
+  letter-spacing: 10px;
+  font-size: 18px;
+}
+
+.tijani > .score{
+  position: absolute;
+ left: 90%;
+ background-color: rgb(29, 121, 29);
+ padding: 6px 10px;
+ border-radius: 5px;
+ color: aliceblue;
+ font-size: 20px;
+
+}
+
+/* This section is for the student Sule Sani Mathew */
+
+.mathew {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+ 
+
+}
+
+.mathew > .passcode{
+  position: absolute;
+  left: 5%;
+  font-size: 20px;
+}
+.mathew > .passcode a{
+  text-decoration: none;
+}
+
+.mathew > .name{
+  position: absolute;
+  left: 19%;
+  padding-left: 25px;
+  font-size: 20px;
+}
+
+ .name span{
+  font-size: 20px;
+  padding-left: 5px;
+ 
+ }
+
+.mathew > .date{
+  position: absolute;
+  left: 35%;
+  font-size: 20px;
+}
+.mathew > .img {
+  position: absolute;
+  left: 16%;
+}
+.mathew > .course{
+  position: absolute;
+  left: 48%;
+  font-size: 18px;
+}
+
+.mathew > .location{
+  position: absolute;
+  left: 63%;
+  font-size: 18px;
+}
+
+.mathew > .contact{
+  position: absolute;
+  left: 75%;
+  letter-spacing: 10px;
+  font-size: 18px;
+}
+
+.mathew > .score{
+  position: absolute;
+ left: 90%;
+ background-color: rgb(211, 28, 28);
+ padding: 6px 10px;
+ border-radius: 5px;
+ color: aliceblue;
+ font-size: 20px;
+
+}
+
+
+/* This section is for the student Okolo Uchenna */
+
+.okolo {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+ 
+
+}
+
+.okolo > .passcode{
+  position: absolute;
+  left: 5%;
+  font-size: 20px;
+}
+.okolo > .passcode a{
+  text-decoration: none;
+}
+
+.okolo > .name{
+  position: absolute;
+  left: 19%;
+  padding-left: 25px;
+  font-size: 20px;
+}
+
+ .name span{
+  font-size: 20px;
+  padding-left: 5px;
+ 
+ }
+
+.okolo > .date{
+  position: absolute;
+  left: 35%;
+  font-size: 20px;
+}
+.okolo > .img {
+  position: absolute;
+  left: 16%;
+}
+.okolo > .course{
+  position: absolute;
+  left: 48%;
+  font-size: 18px;
+}
+
+.okolo > .location{
+  position: absolute;
+  left: 63%;
+  font-size: 18px;
+}
+
+.okolo > .contact{
+  position: absolute;
+  left: 75%;
+  letter-spacing: 10px;
+  font-size: 18px;
+}
+
+.okolo > .score{
+  position: absolute;
+ left: 90%;
+ background-color: rgb(29, 121, 29);
+ padding: 6px 10px;
+ border-radius: 5px;
+ color: aliceblue;
+ font-size: 20px;
+
+}
+
+/* This section is for the student Ishogor Timothy */
+
+.timothy {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+ 
+
+}
+
+.timothy > .passcode{
+  position: absolute;
+  left: 5%;
+  font-size: 20px;
+}
+.timothy > .passcode a{
+  text-decoration: none;
+}
+
+.timothy > .name{
+  position: absolute;
+  left: 19%;
+  padding-left: 25px;
+  font-size: 20px;
+}
+
+ .name span{
+  font-size: 20px;
+  padding-left: 5px;
+ 
+ }
+
+.timothy > .date{
+  position: absolute;
+  left: 35%;
+  font-size: 20px;
+}
+.timothy > .img {
+  position: absolute;
+  left: 16%;
+}
+.timothy > .course{
+  position: absolute;
+  left: 48%;
+  font-size: 18px;
+}
+
+.timothy > .location{
+  position: absolute;
+  left: 63%;
+  font-size: 18px;
+}
+
+.timothy > .contact{
+  position: absolute;
+  left: 75%;
+  letter-spacing: 10px;
+  font-size: 18px;
+}
+
+.timothy > .score{
+  position: absolute;
+ left: 90%;
+ background-color: rgb(255, 174, 0);
+ padding: 6px 10px;
+ border-radius: 5px;
+ color: aliceblue;
+ font-size: 20px;
+
+}
+
+
+/* This is the screen responsive design */
+
+@media (max-width: 1224px){
+
+  .body-main {
+    background-color: #ffffff;
+    justify-content: space-between;
+    padding: auto;
+    
+  
+  }
+  .img img{
+    width: 30px;
+    border-radius: 50%;
+    padding-left: 15px;
+    
+  }
+  
+  .body-main span {
+    text-align: center;
+  }
+  .checkbox {
+    margin-left: -15px;
+  }
+
+  .date{
+    padding-left: 30px;
+   
+   }
+   .location{
+    padding-left: 15px;
+   }
+  }
+
+  @media (max-width: 1024px){
+   
+    .body-main {
+      background-color: #ffffff;
+      justify-content: space-between;
+      
+      
+    
+    }
+    .img img{
+      width: 20px;
+      border-radius: 50%;
+      padding-left: 20px;
+      
+    }
+    
+    .body-main span {
+      text-align: center;
+      font-size: 16px;
+  }
+  }
+
+  @media (max-width:768px){
+
+    .body-main {
+      background-color: lightgrey;
+      justify-content: space-between;
+      
+      
+    
+    }
+    .img img{
+      width: 15px;
+      border-radius: 50%;
+      padding-left: 0px;
+      
+    }
+    
+    .body-main span {
+      text-align: center;
+      font-size: 12px;
+  }
+  .passcode{
+    margin-left: -10px;
+  }
+  .name{
+    margin-left: -30px;
+  }
+
+  .head-title {
+    background-color: rgb(218, 210, 200);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    color: rgb(14, 14, 75);
+    height: 60px;
+  }
+  
+  .checkboxer {
+    margin-left: 0px;
+  }
+  .head-title span a {
+    color: rgb(186, 186, 211);
+    padding-left: 5px;
+  }
+  
+  .head-title > .name{
+    margin-left: 50px;
+
+  }
+  .head-title > .date{
+    margin-left: -10px;
+  }
+
+  .date{
+    margin-left: -30px;
+  }
+  }
+
+  @media (max-width:650px){
+
+    .body-main {
+      background-color: rgb(179, 163, 163);
+      justify-content: space-between;
+      
+      
+    
+    }
+    .img img{
+      width: 15px;
+      border-radius: 50%;
+      padding-left: 5px;
+      
+    }
+    
+    .body-main span {
+      text-align: center;
+      font-size: 12px;
+  }
+  .passcode{
+    margin-left: -8px;
+  }
+  .name{
+    margin-left: -25px;
+  }
+  .name span{
+    font-size: 12px;
+  }
+
+  .head-title {
+    background-color: rgb(218, 210, 200);
+    padding-top: 40px;
+    font-size: 10px;
+  }
+  
+  .checkboxer {
+    margin-left: 0px;
+  }
+  .head-title span a {
+    color: rgb(186, 186, 211);
+    padding-left: 5px;
+  }
+  
+  .head-title > .date{
+    margin-left: -10px;
+  }
+  .head-title > .score{
+    margin-right: -10px;
+  }
+  .head-title> .contact{
+    margin-right: -20px;
+  }
+  .date{
+    margin-left: -15px;
+  }
+  .score{
+    margin-left: 10px;
+  }
+  .location{
+    margin-left: 10px;
+  }
+  /* The navigation bar */  
+  
+
+
+.search input{
+  padding: 10px 10px;
+  font-size: 16px;
+  
+}
+
+  }
+  
